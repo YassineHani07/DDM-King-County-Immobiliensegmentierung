@@ -1,0 +1,4 @@
+model;parameter;n_clusters;noise_share;silhouette;davies_bouldin;calinski_harabasz;business_interpretation
+K-Means;k=3;3;0;2,16687E+16;1,35609E+15;4,29244E+15;"Gute Basis; weniger differenzierte Segmente."
+Agglomerative;k=4, linkage=ward;4;0;1,92399E+16;1,30242E+16;3,40369E+16;"Am besten interpretierbar; vier klare Immobiliensegmente."
+DBSCAN;eps=3.0, min_samples=25;3;1,02716E+16;3,61151E+16;9,67461E+15;1,35141E+16;Beste Silhouette- und Davies-Bouldin-Werte, aber ein sehr großer Hauptcluster.
